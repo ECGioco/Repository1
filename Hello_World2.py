@@ -1,4 +1,6 @@
 print("Hello from Both")
+def mean(numbers):
+    return sum(numbers)/len(numbers)
 def median(numbers):
     numbers = sorted(numbers)
     n = len(numbers)
